@@ -4,7 +4,7 @@ name = "Angel"
 last_name = "ruiz"
 age = 18
 height = 1.68
-is_student = False
+is_student = alse
 groups = ["3A","3B","3C"]
 
 # function type

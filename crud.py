@@ -1,13 +1,13 @@
 drinks = []
 
-def add_drink(drinks):
-    drinks.append(drinks)
+def add_drink(drink):
+    drinks.append(drink)
 
 def del_drink(drink):
-     try:
-         drinks.remove(drink)
-     except Exception:
-     drinks.remove(drink)
+    try:
+        drinks.remove(drink)
+    except Exception:
+        print("No existe en la lista")
     
 def show_drinks():
     print("-" * 4, "my Drinks", "-" * 4)
@@ -16,10 +16,10 @@ def show_drinks():
 
 choice_text = '''
 Elige una Opcion:
-1 - agregar
-2 - eliminar
-3 - mostar
-4 - salir
+    1 - agregar
+    2 - eliminar
+    3 - mostar
+    4 - salir
 '''
 
 while True:
